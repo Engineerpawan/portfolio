@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsonal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Pawan.</div>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi I'm <span>Pawan</span> Bansal <br> from India</h1>
+                <p>Cyber Security Engineer</p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/new.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a Computer Engineer pursuing B.Tech from RGPV University,Madhya Pradesh. I have intersted
+                        twice with Microsoft IDC & worked on a few research projects.
+                        Technology excited me and I am always in awe of the change it drives in the world.Certain skills
+                        that I have worked with include Data Structure and Algorithms.
+                        Outside of teach, I am a tea and Coffee lover,an avid actor and have spent my college days
+                        exploring theatre.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devleopment</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Tenth</span><br>Central Board of Secondary Education</li>
+                            <li><span>Intermediate Examination</span><br>State Board</li>
+                            <li><span>Computer Science Engineering</span><br>IES College of Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devleopment</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------- services------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design involves creating the visual layout and user experience of websites. It encompasses
+                        elements such as layout, color scheme, typography, and navigation to ensure an intuitive and
+                        visually appealing online presence. Good web design considers both aesthetics and functionality
+                        to engage users and achieve the website's goals effectively.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>While UI deals with the visual design and layout, UX is about the overall user experience,
+                        including factors like ease of use, efficiency, and satisfaction. Both UI and UX are crucial for
+                        creating successful web experiences.Web UI (User Interface) refers to the visual elements and
+                        layout of a website or web application that users interact with.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design involves creating the visual and interactive elements of a mobile or web application
+                        to ensure a user-friendly experience. It encompasses layout, navigation, color schemes,
+                        typography, and user interface elements to enhance usability and aesthetics while aligning with
+                        the app's purpose and target audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="continer">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>"Short" is a term often used to refer to short-form video content on social media platforms.
+                            It encapsulates the trend of creating and consuming brief video clips, typically ranging
+                            from a few seconds to a minute in length. These short videos are often characterized by
+                            their fast-paced, attention-grabbing nature and are popularized by platforms like TikTok,
+                            Instagram Reels, Snapchat Spotlight, and YouTube Shorts. Users can create, edit, and share
+                            these short videos, which often feature various forms of entertainment, humor, tutorials,
+                            challenges, dances, and more. The appeal of short-form content lies in its ability to
+                            quickly captivate audiences and facilitate rapid consumption, making it a dominant form of
+                            communication and entertainment on social media.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Music App</h3>
+                        <p>A social music app is a platform that allows users to discover, share, and interact with
+                            music in a social context. Users can create profiles, follow friends or influencers, create
+                            playlists, and share their favorite tracks with others. These apps often include features
+                            like commenting, liking, and messaging, enabling users to engage with each other around the
+                            music they love. Some examples of popular social music apps include Spotify, SoundCloud, and
+                            Apple Music</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>An online shopping app is a digital platform that allows users to browse, select, and
+                            purchase products or services directly from their smartphones or tablets. These apps
+                            typically offer a wide range of products across various categories, such as electronics,
+                            clothing, groceries, and more. Users can create accounts, add items to their virtual
+                            shopping carts, make secure payments, and track the status of their orders. Online shopping
+                            apps often feature user reviews, product recommendations, personalized deals, and convenient
+                            delivery options to enhance the shopping experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------contact form---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> pawanbansal912259@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 7763000165</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/Rgpv.pdf" download class="btn btn2">Download Notes</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a4a8fb75d6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
